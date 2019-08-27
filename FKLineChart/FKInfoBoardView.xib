@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FKInfoBoardView" customModule="FKLineChart" customModuleProvider="target">
+            <connections>
+                <outlet property="firstLabel" destination="x56-st-noE" id="Dp5-Hv-Dsg"/>
+                <outlet property="secondLabel" destination="eWr-2Q-kAt" id="SS1-5O-T6l"/>
+                <outlet property="seperatorView" destination="vzs-3a-q94" id="1T4-oL-tMB"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="169" height="72"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vzs-3a-q94">
+                    <rect key="frame" x="0.0" y="35.5" width="169" height="1"/>
+                    <color key="backgroundColor" red="0.14509803921568626" green="0.10588235294117647" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="0lH-nx-I5R"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14:01 - 16:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x56-st-noE">
+                    <rect key="frame" x="8" y="5" width="153" height="25.5"/>
+                    <fontDescription key="fontDescription" name="GujaratiSangamMN-Bold" family="Gujarati Sangam MN" pointSize="10"/>
+                    <color key="textColor" red="0.57647058823529407" green="0.22745098039215686" blue="0.89411764705882346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="80 Kişi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWr-2Q-kAt">
+                    <rect key="frame" x="8" y="41.5" width="153" height="25.5"/>
+                    <fontDescription key="fontDescription" name="GujaratiSangamMN-Bold" family="Gujarati Sangam MN" pointSize="10"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.058823529411764705" green="0.019607843137254902" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="eWr-2Q-kAt" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="30k-AD-VtI"/>
+                <constraint firstItem="vzs-3a-q94" firstAttribute="top" secondItem="x56-st-noE" secondAttribute="bottom" constant="5" id="C4b-zY-nGh"/>
+                <constraint firstItem="vzs-3a-q94" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="DXP-q8-DgM"/>
+                <constraint firstItem="vzs-3a-q94" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Dor-6m-a5g"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="eWr-2Q-kAt" secondAttribute="trailing" constant="8" id="JRr-lt-84f"/>
+                <constraint firstAttribute="bottom" secondItem="eWr-2Q-kAt" secondAttribute="bottom" constant="5" id="aSe-xC-GvV"/>
+                <constraint firstItem="x56-st-noE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="cNk-sh-wYk"/>
+                <constraint firstItem="x56-st-noE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="hhg-7e-ymz"/>
+                <constraint firstAttribute="trailing" secondItem="x56-st-noE" secondAttribute="trailing" constant="8" id="ht0-bi-5KJ"/>
+                <constraint firstItem="eWr-2Q-kAt" firstAttribute="top" secondItem="vzs-3a-q94" secondAttribute="bottom" constant="5" id="sos-6Z-n91"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vzs-3a-q94" secondAttribute="trailing" id="zLb-5P-hrR"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-39.855072463768117" y="316.74107142857139"/>
+        </view>
+    </objects>
+</document>
