@@ -68,7 +68,7 @@ override func viewDidLoad() {
 
 <img src="https://github.com/Furkankurnaz/FKLineChart/blob/master/usageImages/4.png"/>
 
-### Advance Usage
+## Advance Usage
 
 You can customize your chart as you wish! :
 
