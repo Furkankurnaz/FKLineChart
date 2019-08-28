@@ -10,6 +10,9 @@ Add the following entry to your Podfile:
 pod 'FKLineChart'
 ```
 
-Then run `pod install`.
+Then run:
+```rb
+pod install
+```
 
 Don't forget to `import FKLineChart` in every file you'd like to use line chart.
