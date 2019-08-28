@@ -36,6 +36,10 @@ import FKLineChart
 
 3- Create an array that holds `FKLineChartPoint` objects. For this there are three options:
 
+<img src="https://github.com/Furkankurnaz/FKLineChart/blob/master/usageImages/2.png"/>
+
+If you want to see info board when you tap a point, then use third one.
+
 4- After you crated the array like this: 
 
 ```swift
@@ -59,3 +63,7 @@ override func viewDidLoad() {
 ```
 
 ### Result
+
+<img src="https://github.com/Furkankurnaz/FKLineChart/blob/master/usageImages/3.png"/>
+
+<img src="https://github.com/Furkankurnaz/FKLineChart/blob/master/usageImages/4.png"/>
