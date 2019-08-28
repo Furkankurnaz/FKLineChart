@@ -21,7 +21,7 @@ spec.author       = { "Furkan Kurnaz" => "furkankurnaz96@gmail.com" }
 spec.platform     = :ios, "11.0"
 spec.swift_version = "4.2"
 
-spec.source       = { :git => "https://github.com/Furkankurnaz/FKLineChart.git", :tag => "1.0.0" }
+spec.source       = { :git => "https://github.com/Furkankurnaz/FKLineChart.git", :tag => "1.0.1" }
 
 spec.source_files = 'FKLineChart/*.{swift, xib, h}'
 
