@@ -21,3 +21,5 @@ Don't forget to import FKLineChart in every file you'd like to use line chart :
 ```swift
 import FKLineChart
 ```
+
+## Usage
