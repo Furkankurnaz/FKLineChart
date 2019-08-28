@@ -23,6 +23,11 @@ spec.swift_version = "4.2"
 
 spec.source       = { :git => "https://github.com/Furkankurnaz/FKLineChart.git", :tag => "1.0.1" }
 
-spec.source_files = 'FKLineChart/*.{swift, xib, h}'
+# spec.source_files = 'FKLineChart/*.{swift, xib, h}'
+
+spec.source_files = 'FKLineChart/*.{h,m}'
+spec.resource_bundles = {
+'FKLineChart' => ['FKLineChart/*.xib']
+}
 
 end
