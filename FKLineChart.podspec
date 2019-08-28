@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "FKLineChart"
-spec.version      = "1.0.2"
+spec.version      = "1.0.3"
 spec.summary      = "A simple line chart with info board. "
 spec.description  = "The FKLineChart is a completely customizable line chart. You can show your chart and show info board of any point when point taps."
 
@@ -21,11 +21,11 @@ spec.author       = { "Furkan Kurnaz" => "furkankurnaz96@gmail.com" }
 spec.platform     = :ios, "11.0"
 spec.swift_version = "4.2"
 
-spec.source       = { :git => "https://github.com/Furkankurnaz/FKLineChart.git", :tag => "1.0.2" }
+spec.source       = { :git => "https://github.com/Furkankurnaz/FKLineChart.git", :tag => "1.0.3" }
 
 # spec.source_files = 'FKLineChart/*.{swift, xib, h}'
 
-spec.source_files = 'FKLineChart/*.{h,m}'
+spec.source_files = 'FKLineChart/*.{h,m,swift}'
 spec.resource_bundles = {
 'FKLineChart' => ['FKLineChart/*.xib']
 }
