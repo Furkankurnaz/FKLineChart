@@ -11,8 +11,13 @@ pod 'FKLineChart'
 ```
 
 Then run:
+
 ```rb
 pod install
 ```
 
-Don't forget to `import FKLineChart` in every file you'd like to use line chart.
+Don't forget to import FKLineChart in every file you'd like to use line chart :
+
+```rb
+import FKLineChart
+```
