@@ -64,9 +64,9 @@ override func viewDidLoad() {
 
 ### Result
 
-<img src="https://github.com/Furkankurnaz/FKLineChart/blob/master/usageImages/3.png"/>
+<img src="https://github.com/Furkankurnaz/FKLineChart/blob/master/usageImages/3.png" width="450" height="300"/>
 
-<img src="https://github.com/Furkankurnaz/FKLineChart/blob/master/usageImages/4.png"/>
+<img src="https://github.com/Furkankurnaz/FKLineChart/blob/master/usageImages/4.png" width="450" height="300"/>
 
 ## Advance Usage
 
