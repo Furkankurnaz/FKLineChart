@@ -18,6 +18,6 @@ pod install
 
 Don't forget to import FKLineChart in every file you'd like to use line chart :
 
-```rb
+```swift
 import FKLineChart
 ```
