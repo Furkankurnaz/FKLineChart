@@ -59,7 +59,7 @@ override func viewDidLoad() {
         super.viewDidLoad()
         
         lineChart.showChart(points: pointsArray)
-    }
+}
 ```
 
 ### Result
@@ -67,3 +67,26 @@ override func viewDidLoad() {
 <img src="https://github.com/Furkankurnaz/FKLineChart/blob/master/usageImages/3.png"/>
 
 <img src="https://github.com/Furkankurnaz/FKLineChart/blob/master/usageImages/4.png"/>
+
+### Advance Usage
+
+You can customize your chart as you wish! :
+
+```swift
+lineChart.lineWidth = 2.0
+lineChart.lineColor = .black
+lineChart.circleLineWidth = 2.0
+lineChart.circleRadius = 5.0
+lineChart.infoBoardBackgroundColor = UIColor(red: 15/255, green: 5/255, blue: 42/255, alpha: 1)
+lineChart.infoBoardSeperatorColor = UIColor(red: 37/255, green: 27/255, blue: 63/255, alpha: 1)
+lineChart.infoBoardWidth = 85
+lineChart.infoBoardHeight = 50
+```
+
+And if you want change texts colors:
+
+```swift
+lineChart.usePointColorForTextColor = false
+lineChart.firstTextColor = .white
+lineChart.secondTextColor = .red
+```
