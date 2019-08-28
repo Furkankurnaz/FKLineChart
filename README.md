@@ -23,3 +23,5 @@ import FKLineChart
 ```
 
 ## Usage
+
+1- Add a UIView to your storyboard and set its custom class `FKLineChart`.
