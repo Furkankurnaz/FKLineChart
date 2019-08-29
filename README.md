@@ -40,7 +40,7 @@ import FKLineChart
 
 If you want to see info board when you tap a point, then use third one.
 
-4- After you crated the array like this: 
+4- After you created the array like this: 
 
 ```swift
 var pointsArray: [FKLineChartPoint] = [
