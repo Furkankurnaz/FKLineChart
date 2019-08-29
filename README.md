@@ -83,7 +83,7 @@ lineChart.infoBoardWidth = 85
 lineChart.infoBoardHeight = 50
 ```
 
-And if you want change texts colors:
+And if you want, you can change texts colors:
 
 ```swift
 lineChart.usePointColorForTextColor = false
