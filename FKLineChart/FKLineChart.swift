@@ -8,7 +8,7 @@
 
 import UIKit
 
-public protocol FKLineChartDelegate: class {
+public protocol FKLineChartDelegate: AnyObject {
     func circleTapped(index: Int)
 }
 
